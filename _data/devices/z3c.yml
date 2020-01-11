@@ -1,5 +1,9 @@
 architecture: arm
 battery: {removable: False, capacity: 2600, tech: 'Li-Ion'}
+before_install: >
+    Before installing a current TWRP as recovery image make sure firmware 23.5.A.1.291 is installed before proceeding. 
+    You can find it [here](https://forum.xda-developers.com/z3-compact/general/list-stock-firmwares-d5803-d5833-t2906706).
+    This requirement likely applies to other recovery images, too.
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '20.7 MP'}
